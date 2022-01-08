@@ -15,6 +15,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="BookLot.mdf" />
+    <None Remove="BookLot_log.ldf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
       <PrivateAssets>all</PrivateAssets>
